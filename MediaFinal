@@ -1,0 +1,24 @@
+#Crie um programa que receba 2 notas e classifiue a media final em A,B,C,D ou E e mostre se esta aprovado ou Reprovado#
+nota1 = int (input("Digite a Primeira nota: "))
+nota2 = int (input("Digete a Segunda Nota:  "))
+
+Media = (nota1+nota2)/2
+
+print("Suas Notas são: ", nota1, "e" , nota2)
+print("Media Final: ",Media )
+
+if Media >= 9.0:
+    print("Conceito A")
+    print("Aprovado")
+elif Media >=7.5:
+    print("Conceito B")
+    print("Aprovado")
+elif Media >=6.0:
+    print("Conceito C")
+    print("Aprovado")
+elif Media >=4.0:
+    print("Conceito D")
+    print("Reprovado")
+else:
+    print("Conceito E")
+    print("Reprovado")
